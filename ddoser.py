@@ -194,7 +194,7 @@ class Spammer(threading.Thread):
                 self.request()
             except:
                 pass
-  try:
+	
 	r = requests.get("https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt")
 	f.write(r.content)
 	f.close()

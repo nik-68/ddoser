@@ -192,12 +192,10 @@ class Spammer(threading.Thread):
             try:
                 N += 1
                 self.request()
-        sys.exit(0)
             except:
                 pass
+        sys.exit(0)
 	
-
-
 print("""
      __                      _____
     / /  __ _ _   _  ___ _ _|___  |

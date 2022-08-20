@@ -58,7 +58,7 @@ class Home:
 				time.sleep(1)
 
 	def home(self): # don't edit this banner lol
-		print(f"""
+		print f"""
              
 		print(Color.LC+"    Type "+Color.LB+"'HELP'"+Color.LC+" to see all commands\n\n")
 		print(Color.LR+"["+Color.LG+"01"+Color.LR+"]"+Color.LC+" Proxy")

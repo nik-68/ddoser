@@ -7,20 +7,12 @@ import subprocess
 import random
 import os
 import sys
+import colorama
 import time
 import json
-import time
-try: #pip3 install httpx requests speedtest colorama
-	import speedtest
-	import colorama
-	import requests
-	import httpx
-except Exception as e:
-	sys.exit(e)
-
-
 import urllib.request, os, threading, time, random, sys
 from sys import stdout
+os.system("clear")
 
 ref = [
     'https://duckduckgo.com/',
@@ -203,7 +195,7 @@ class Spammer(threading.Thread):
             except:
                 pass
         sys.exit(0)
-	os.system("clear")
+
 print("""
      __                      _____
     / /  __ _ _   _  ___ _ _|___  |
